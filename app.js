@@ -4,8 +4,8 @@ const BodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 
-//Global Constant || Heroku Deployment Setup
-const port = process.env.PORT || 443;
+//Global Constant 
+const port = process.env.PORT;
 //Initialize the App
 const app = express();
 
