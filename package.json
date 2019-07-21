@@ -1,0 +1,20 @@
+{
+  "name": "aviv_portfolio",
+  "version": "1.0.0",
+  "description": "Aviv's personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Aviv"
+  ],
+  "author": "Aviv Lo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}
