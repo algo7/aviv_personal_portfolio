@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 
 //Global Constant 
-const port = process.env.PORT || 3000;
+const port = 3000;
 //Initialize the App
 const app = express();
 
